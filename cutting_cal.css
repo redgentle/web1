@@ -1,0 +1,210 @@
+@charset "utf-8";
+
+	body {
+		/*width: 800px;*/
+		margin: 0;
+		padding: 0;
+		border-collapse: collapse;
+		/*border: 1px solid #ccc;*/
+	}
+	body,input,div,select,td{
+		font-size: 12px;
+		font-family: Gulim;
+		text-align: center;
+	}
+	img {
+		border: 0;
+	}
+	
+	a:link{
+		cursor: pointer;
+	}
+	
+	div#header {
+		/*padding: 0 0 15px 0;*/
+		
+	}
+	
+	/*견적서 작성*/	
+	div#input {
+		margin:0 auto;
+		width: 780px;
+	}
+	div#inputSubject {
+		width:780px;
+		height:24px;
+		line-height: 24px;
+		text-align:left;
+		background: url("/info_etc/open_cutting/img/cal_bg.png"); 
+		background-position:100% 0%;
+		background-repeat:repeat-x;
+	}
+	div#inputFix {
+		position:absolute;
+		width:32px;
+		height:24px;
+		margin: 0 0 0 -1px;
+		background: url("/info_etc/open_cutting/img/cal_bgleft01.png");
+		background-position:0% 100%;
+		background-repeat:no-repeat;
+	}
+	div#inputContents {
+		width:758px;
+		height:100%;
+		border: 1px solid #e3e3e3;
+		padding:10px;
+    	background-color:#f3f3f3;		
+	}
+	
+	/*견적서 확인*/		
+	div#list {
+		margin:0 auto;
+		width: 780px;
+		float:left;
+	}
+	div#listSubject {
+		width:780px;
+		height:24px;
+		line-height: 24px;
+		text-align:left;
+		background: url("/info_etc/open_cutting/img/cal_bg.png");
+		background-position:100% 0%;
+		background-repeat:repeat-x;
+	}
+	div#listFix {
+		position:absolute;
+		width:32px;
+		height:24px;
+		margin: 0 0 0 -1px;
+		background: url("/info_etc/open_cutting/img/cal_bgleft02.png");
+		background-position:0% 100%;
+		background-repeat:no-repeat;
+	}
+	div#listContents {
+		width:760px;
+		height:300px;
+		border: 1px solid #dcdcdc;
+		padding:10px;
+		overflow:auto;
+		background-color:#ececec;		
+	}
+	div#listBottom {
+		width:440px;
+		padding-top:5px;
+	}
+	
+	div#wrap{
+		margin:0 auto;
+		width: 780px;
+		height: 500px;
+	}
+	
+	/*주문서 작성*/
+	div#order {
+		/*margin: 0 0 0 450px;*/
+		width: 780px;
+		/*float:right;*/
+	}	
+	div#orderSubject {
+		width:780px;
+		height:24px;
+		line-height: 24px;
+		text-align:left;
+		background: url("/info_etc/open_cutting/img/cal_bg.png");
+		background-position:100% 0%;
+		background-repeat:repeat-x;
+		/*padding-top:280px;*/
+	}
+	div#orderFix {
+		position:absolute;
+		width:32px;
+		height:24px;
+		margin: 0 0 0 -1px;
+		background: url("/info_etc/open_cutting/img/cal_bgleft03.png");
+		background-position:0% 100%;
+		background-repeat:no-repeat;
+	}
+	div#orderContents {
+		width: 780px;
+		height: 100%;
+		/*padding: 5px;*/
+		padding-top:300px;
+		
+	}
+	td.style1 {
+		float:left;
+		width: 100px;
+		padding: 8px;
+		font-size:10pt;	
+		text-align: left;
+	}
+	div.style2 {
+		text-align:left;
+		padding: 5px;		
+	}
+	input#order_name,#order_tel,#order_email,textarea#order_memo{
+		width: 120px;
+	}
+	
+	div#total_price{
+		float:left; 
+		width:83px; 
+		height:25px;
+		line-height:25px;
+		border:1px solid #c8c8c8;
+		color:#ff0000;
+		font-size:16px;
+		font-weight:bold;
+	}
+	
+	div#total_ea{
+		/*
+		float:left;
+		width:100px;
+		height:25px;
+		line-height:25px;
+		border:1px solid #c8c8c8;
+		margin-left: 5px;
+		color:#ff0000;
+		font-size:16px;	
+		*/
+	}
+	
+	div#total_1000{
+		
+		width:100px;
+		height:25px;
+		line-height:25px;
+		border:1px solid #c8c8c8;
+		margin-left: 5px;
+		color:#ff0000;
+		font-size:16px;	
+	}
+	
+		div#total_100{
+		
+		width:100px;
+		height:25px;
+		line-height:25px;
+		border:1px solid #c8c8c8;
+		margin-left: 5px;
+		color:#ff0000;
+		font-size:16px;	
+	}
+	
+	
+.bgcol0 { background-color:#ffffff; padding:5px; }
+.bgcol1 { background-color:#fafafa; padding:5px; }
+
+
+
+.line1 { background-color:#afafaf; height:1px; padding:0px 0px 0px 0px; border:0px;}
+.line2 { background-color:#bababa; height:1px; padding:0px 0px 0px 0px; border:0px;}
+
+
+.bold { font-weight:bold; }
+.center { text-align:center; }
+.right { text-align:right; }
+.left { text-align:left; }
+.red { color:#993366; }
+.ht { height:30px; }
